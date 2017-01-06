@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Test {
     @RequestMapping(path = "/ping", method = RequestMethod.GET)
     public String ping() {
-        return "PONG";
+        return "PONG1";
     }
 }
